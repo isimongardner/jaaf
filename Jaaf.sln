@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jaaf", "Jaaf\Jaaf.csproj", "{4395835B-DCC3-40CA-8815-FCF2B1A593B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4395835B-DCC3-40CA-8815-FCF2B1A593B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4395835B-DCC3-40CA-8815-FCF2B1A593B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4395835B-DCC3-40CA-8815-FCF2B1A593B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4395835B-DCC3-40CA-8815-FCF2B1A593B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C783A481-452A-42AB-8C37-6DD5D94DEDD5}
+	EndGlobalSection
+EndGlobal
