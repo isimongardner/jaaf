@@ -4,8 +4,9 @@ using System.Text;
 
 namespace Jaaf
 {
-    public interface IApplicationRequest
+    public interface IExecutionResult<T>
     {
-        
+        bool Success { get; }
+        T Result { get; }
     }
 }

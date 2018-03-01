@@ -1,6 +1,9 @@
 ﻿namespace Jaaf
 {
-    public interface IApplicationCommand<T> where T : IApplicationRequest
+    public interface IApplicationCommand<E, R> 
+                        where E : IExecutionResult<E> 
+                            where R : IApplicationRequest
     {
+        E Execute(R request);
     }
 }
